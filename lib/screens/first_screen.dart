@@ -1,5 +1,6 @@
-import 'package:LinuxApp/second_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:LinuxApp/screens/second_screen.dart';
+
 
 class FirstScreen extends StatefulWidget {
   @override
@@ -16,12 +17,6 @@ class _FirstScreenState extends State<FirstScreen> {
         child: Padding(
           padding: EdgeInsets.all(4.0),
           child: Container(
-            decoration: BoxDecoration(
-              border: Border.all(
-                color: Colors.green,
-                width: 2.0,
-              )
-            ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -60,9 +55,9 @@ class _FirstScreenState extends State<FirstScreen> {
                       style: TextStyle(
                         fontSize: 20.0,
                         fontWeight: FontWeight.bold,
-                        fontFamily: 'Pacifico', 
+                        fontFamily: 'Pacifico',
                         letterSpacing: 2.0,
-                        color: Colors.white,  
+                        color: Colors.white,
                       ),
                     ),
                     onPressed: () {
